@@ -1,0 +1,8 @@
+Repository\AddressBookRepository.class
+Repository\AccessingDataJpaApplication.class
+Repository\BuddyInfo.class
+Repository\AddressBook.class
+Repository\WebController.class
+Repository\BuddyInfoRepository.class
+Repository\ServingWebContentApplication.class
+Repository\OtherController.class
