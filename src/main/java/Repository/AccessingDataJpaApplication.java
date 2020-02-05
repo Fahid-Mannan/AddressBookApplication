@@ -12,10 +12,13 @@ public class AccessingDataJpaApplication {
 
     private static final Logger log = LoggerFactory.getLogger(AccessingDataJpaApplication.class);
 
+    // commented out due to having 2 mains being an error
+    /*
     public static void main(String[] args) {
         SpringApplication.run(AccessingDataJpaApplication.class, args);
     }
-
+    */
+    
     @Bean
     public CommandLineRunner demo(BuddyInfoRepository repository) {
         return (args) -> {
