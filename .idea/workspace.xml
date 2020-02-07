@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f75b20e-0ddd-42e5-a700-b6d0a5bcb70f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/HttpRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/TestingWebApplicationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/AddressBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/OtherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/OtherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/webController.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/webController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/AccessingDataJpaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/AccessingDataJpaApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/AccessingDataJpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/AccessingDataJpaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/AccessingDataJpaApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/webController.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/webController.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -135,37 +132,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="164" />
+          <entry key="java" value="437" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="164" />
+          <entry key="JAVA" value="437" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
+          <entry key="java" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/webController.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Repository/ServingWebContentApplication.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -219,20 +209,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Repository/AccessingDataJpaApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="50" lean-forward="true" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/WebController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -240,7 +218,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Repository/OtherController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="414">
               <caret line="33" column="24" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -249,11 +227,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/main.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Repository/TestingWebApplicationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Repository/HttpRequestTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -294,7 +296,6 @@
         <option value="$PROJECT_DIR$/src/main/java/BuddyInfoRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/AccessingDataJpaApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/AddressBookRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Repository/AccessingDataJpaApplication.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddressBookTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/Templates/webController.html" />
@@ -306,6 +307,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Repository/ServingWebContentApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/AddressBook.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/OtherController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestingWebApplicationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/AccessingDataJpaApplication.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Repository/TestingWebApplicationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Repository/HttpRequestTest.java" />
       </list>
     </option>
   </component>
@@ -383,6 +388,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Repository" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AddressBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AddressBookApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AddressBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AddressBookApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AddressBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AddressBookApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -399,12 +425,15 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581102624063" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581105746752" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Repository" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="M:\SYSC 4806\Lab01\src" />
       <recent name="M:\SYSC 4806\Lab01\target" />
@@ -865,22 +894,44 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServingWebContentApplication">
-    <configuration name="AddressBookTest.testJPM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AddressBook" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AddressBookTest" />
-      <option name="METHOD_NAME" value="testJPM" />
+  <component name="RunManager" selected="JUnit.HttpRequestTest.testRestApplication">
+    <configuration name="HttpRequestTest.greetingShouldReturnDefaultMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Repository" />
+      <option name="MAIN_CLASS_NAME" value="Repository.HttpRequestTest" />
+      <option name="METHOD_NAME" value="greetingShouldReturnDefaultMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BuddyInfoTest.testJPA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AddressBook" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BuddyInfoTest" />
-      <option name="METHOD_NAME" value="testJPA" />
+    <configuration name="HttpRequestTest.testRestApplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Repository" />
+      <option name="MAIN_CLASS_NAME" value="Repository.HttpRequestTest" />
+      <option name="METHOD_NAME" value="testRestApplication" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingWebApplicationTest.shouldReturnDefaultMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab02" />
+      <option name="PACKAGE_NAME" value="Repository" />
+      <option name="MAIN_CLASS_NAME" value="Repository.TestingWebApplicationTest" />
+      <option name="METHOD_NAME" value="shouldReturnDefaultMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -913,17 +964,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BuddyInfoTest.testJPA" />
-      <item itemvalue="JUnit.AddressBookTest.testJPM" />
       <item itemvalue="Spring Boot.AccessingDataJpaApplication" />
       <item itemvalue="Spring Boot.ServingWebContentApplication" />
+      <item itemvalue="JUnit.TestingWebApplicationTest.shouldReturnDefaultMessage" />
+      <item itemvalue="JUnit.HttpRequestTest.greetingShouldReturnDefaultMessage" />
+      <item itemvalue="JUnit.HttpRequestTest.testRestApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HttpRequestTest.testRestApplication" />
+        <item itemvalue="JUnit.HttpRequestTest.greetingShouldReturnDefaultMessage" />
+        <item itemvalue="JUnit.TestingWebApplicationTest.shouldReturnDefaultMessage" />
         <item itemvalue="Spring Boot.ServingWebContentApplication" />
         <item itemvalue="Spring Boot.AccessingDataJpaApplication" />
-        <item itemvalue="JUnit.AddressBookTest.testJPM" />
-        <item itemvalue="JUnit.BuddyInfoTest.testJPA" />
       </list>
     </recent_temporary>
   </component>
@@ -946,50 +999,50 @@
       <workItem from="1580492375969" duration="14450000" />
       <workItem from="1580930989069" duration="1020000" />
       <workItem from="1580933384617" duration="1689000" />
-      <workItem from="1581099003403" duration="3607000" />
+      <workItem from="1581099003403" duration="6499000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BuddyInfoTest_testJPA - 2020.01.17 at 17h 12m 02s.xml">
-      <configuration name="BuddyInfoTest.testJPA" configurationId="JUnit" />
+    <history-entry file="TestingWebApplicationTest_shouldReturnDefaultMessage - 2020.02.07 at 14h 36m 29s.xml">
+      <configuration name="TestingWebApplicationTest.shouldReturnDefaultMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuddyInfoTest_testJPA - 2020.01.17 at 17h 13m 04s.xml">
-      <configuration name="BuddyInfoTest.testJPA" configurationId="JUnit" />
+    <history-entry file="HttpRequestTest_greetingShouldReturnDefaultMessage - 2020.02.07 at 14h 41m 32s.xml">
+      <configuration name="HttpRequestTest.greetingShouldReturnDefaultMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddressBookTest_testJPM - 2020.01.17 at 17h 15m 48s.xml">
-      <configuration name="AddressBookTest.testJPM" configurationId="JUnit" />
+    <history-entry file="HttpRequestTest_greetingShouldReturnDefaultMessage - 2020.02.07 at 14h 43m 45s.xml">
+      <configuration name="HttpRequestTest.greetingShouldReturnDefaultMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddressBookTest_testJPM - 2020.01.17 at 17h 16m 22s.xml">
-      <configuration name="AddressBookTest.testJPM" configurationId="JUnit" />
+    <history-entry file="HttpRequestTest_greetingShouldReturnDefaultMessage - 2020.02.07 at 14h 47m 12s.xml">
+      <configuration name="HttpRequestTest.greetingShouldReturnDefaultMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddressBookTest_testJPM - 2020.01.17 at 17h 18m 14s.xml">
-      <configuration name="AddressBookTest.testJPM" configurationId="JUnit" />
+    <history-entry file="HttpRequestTest_greetingShouldReturnDefaultMessage - 2020.02.07 at 14h 50m 41s.xml">
+      <configuration name="HttpRequestTest.greetingShouldReturnDefaultMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddressBookTest_testJPM - 2020.01.17 at 17h 18m 23s.xml">
-      <configuration name="AddressBookTest.testJPM" configurationId="JUnit" />
+    <history-entry file="HttpRequestTest_greetingShouldReturnDefaultMessage - 2020.02.07 at 14h 51m 31s.xml">
+      <configuration name="HttpRequestTest.greetingShouldReturnDefaultMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddressBookTest_testJPM - 2020.01.17 at 17h 20m 07s.xml">
-      <configuration name="AddressBookTest.testJPM" configurationId="JUnit" />
+    <history-entry file="HttpRequestTest_greetingShouldReturnDefaultMessage - 2020.02.07 at 14h 52m 41s.xml">
+      <configuration name="HttpRequestTest.greetingShouldReturnDefaultMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddressBookTest_testJPM - 2020.01.17 at 17h 21m 18s.xml">
-      <configuration name="AddressBookTest.testJPM" configurationId="JUnit" />
+    <history-entry file="HttpRequestTest_testRestApplication - 2020.02.07 at 14h 55m 30s.xml">
+      <configuration name="HttpRequestTest.testRestApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddressBookTest_testJPM - 2020.01.17 at 17h 21m 38s.xml">
-      <configuration name="AddressBookTest.testJPM" configurationId="JUnit" />
+    <history-entry file="HttpRequestTest_testRestApplication - 2020.02.07 at 14h 56m 27s.xml">
+      <configuration name="HttpRequestTest.testRestApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddressBookTest_testJPM - 2020.01.17 at 17h 23m 25s.xml">
-      <configuration name="AddressBookTest.testJPM" configurationId="JUnit" />
+    <history-entry file="HttpRequestTest_testRestApplication - 2020.02.07 at 14h 57m 33s.xml">
+      <configuration name="HttpRequestTest.testRestApplication" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37899000" />
+    <option name="totallyTimeSpent" value="40791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.7133479" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21002132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1000,7 +1053,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.739339" visible="true" weight="0.312026" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.739339" visible="true" weight="0.312026" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1129,13 +1182,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/AccessingDataJpaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="50" lean-forward="true" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Repository/WebController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1156,10 +1202,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/BuddyInfoRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/BuddyInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="541">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/main.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/AddressBookRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1178,20 +1241,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/AddressBookRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/AccessingDataJpaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/BuddyInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/BuddyInfoRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1200,7 +1260,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Repository/OtherController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="414">
           <caret line="33" column="24" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1208,10 +1268,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/main.iml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/TestingWebApplicationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="408">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/HttpRequestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
