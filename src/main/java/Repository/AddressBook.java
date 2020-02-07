@@ -34,6 +34,21 @@ public class AddressBook {
         }
     }
 
+    public void remove(String name) {
+        Boolean found = false;
+        int index = -1;
+        for (int i = 0; i < addressBook.size(); i++) {
+            if (addressBook.get(i).getName().equals(name)) {
+                found = true;
+                index = i;
+            }
+        }
+
+        if (found && index != -1) {
+            addressBook.remove(index);
+        }
+    }
+
 
     @OneToMany(cascade = CascadeType.ALL)
     public List<BuddyInfo> getBuddies() {

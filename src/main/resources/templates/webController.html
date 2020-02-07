@@ -1,10 +1,15 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Getting Started: Serving Web Content</title>
+    <title>My SpringBoot Application</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
-    <p th:text="'Hello, ' + ${name} + '!'" />
+<div th:each="addressBook: ${addressBooks}">
+    <h1 th:text="${addressBook.id}" />
+    <ul th:each="buddy: ${addressBook.buddies}">
+        <li th:text="${buddy}" />
+    </ul>
+</div>
 </body>
 </html>

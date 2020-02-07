@@ -31,7 +31,7 @@ public class OtherController {
     public AddressBook removeBuddy(@RequestParam("bookId") long bookId, @RequestParam("name") String name, @RequestParam("address") String address, @RequestParam("phoneNum") long phoneNum) {
         AddressBook book = repository.findById(bookId);
         BuddyInfo buddy = new BuddyInfo(name, address, phoneNum);
-        book.remove(buddy);
+        book.remove(name);
         repository.save(book);
         return book;
     }
