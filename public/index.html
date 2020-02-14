@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>My SpringBoot Application</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"/>
+    <script src="js/hello.js"></script>
+    <script>
+        $(document).ready(function() {
+        $.ajax({
+            url: "http://localhost:8081/api/get?bookId=1"
+        }).then(function(data) {
+            console.log(data);
+            $('.buddy-id').append(data.id);
+        });
+    });
+    </script>
+</head>
+<body>
+   <div>
+       <p class="buddy-id">The Buddies within tfdasfhe repository include </p>
+   </div>
+</body>
+</html>
