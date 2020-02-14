@@ -22,31 +22,31 @@ public class HttpRequestTest {
     @Test
     public void testRestApplication() throws Exception {
         // create the address book
-        assertThat(this.restTemplate.postForObject("http://localhost:" + port + "/create", null,
+        assertThat(this.restTemplate.postForObject("http://localhost:" + port + "/api/create", null,
                 String.class)).contains("\"id\":1");
 
         // add a buddy
-        assertThat(this.restTemplate.postForObject("http://localhost:" + port + "/add?bookId=1&name=Fahid&address=123Carleton&phoneNum=90210", null,
+        assertThat(this.restTemplate.postForObject("http://localhost:" + port + "/api/add?bookId=1&name=Fahid&address=123Carleton&phoneNum=90210", null,
                 String.class)).contains("\"name\":\"Fahid\"").contains("\"address\":\"123Carleton\"").contains("\"phoneNum\":90210");
 
         // check that the added buddy persisted correctly
-        assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/get", String.class).contains("\"name\":\"Fahid\""));
+        assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/api/get", String.class).contains("\"name\":\"Fahid\""));
 
         // add another buddy
-        assertThat(this.restTemplate.postForObject("http://localhost:" + port + "/add?bookId=1&name=Jeffrey&address=5678Ottawa&phoneNum=555", null,
+        assertThat(this.restTemplate.postForObject("http://localhost:" + port + "/api/add?bookId=1&name=Jeffrey&address=5678Ottawa&phoneNum=555", null,
                 String.class)).contains("\"phoneNum\":555").contains("\"address\":\"5678Ottawa\"").contains("\"phoneNum\":555");
 
         // check that the added buddy persisted correctly
-        assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/get", String.class).contains("\"name\":\"Jeffrey\""));
+        assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/api/get", String.class).contains("\"name\":\"Jeffrey\""));
 
         // remove second buddy
-        assertThat(!(this.restTemplate.postForObject("http://localhost:" + port + "/remove?bookId=1&name=Jeffrey&address=5678Ottawa&phoneNum=555", null,
+        assertThat(!(this.restTemplate.postForObject("http://localhost:" + port + "/api/remove?bookId=1&name=Jeffrey&address=5678Ottawa&phoneNum=555", null,
                 String.class)).contains("\"phoneNum\":555"));
 
         // check that the added buddy persisted correctly
-        assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/get", String.class).contains("\"name\":\"Fahid\""));
+        assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/api/get", String.class).contains("\"name\":\"Fahid\""));
 
         // check that the removed buddy persisted correctly
-        assertThat(!(this.restTemplate.getForObject("http://localhost:" + port + "/get", String.class).contains("\"name\":\"Jeffrey\"")));
+        assertThat(!(this.restTemplate.getForObject("http://localhost:" + port + "/api/get", String.class).contains("\"name\":\"Jeffrey\"")));
     }
 }

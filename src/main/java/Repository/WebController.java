@@ -13,7 +13,7 @@ public class WebController {
     @Autowired
     private AddressBookRepository repository;
 
-    @PostMapping("/create")
+    @PostMapping("/api/create")
     @ResponseBody
     public AddressBook createAddressBookAPI() {
         AddressBook book = new AddressBook();
@@ -28,7 +28,7 @@ public class WebController {
         return "createPage";
     }
 
-    @PostMapping("/add")
+    @PostMapping("/api/add")
     @ResponseBody
     public AddressBook addBuddyAPI(@RequestParam("bookId") long bookId, @RequestParam("name") String name, @RequestParam("address") String address, @RequestParam("phoneNum") long phoneNum) {
         AddressBook book = repository.findById(bookId);
@@ -45,7 +45,7 @@ public class WebController {
         return "addBuddy";
     }
 
-    @PostMapping("/remove")
+    @PostMapping("/api/remove")
     @ResponseBody
     public AddressBook removeBuddyAPI(@RequestParam("bookId") long bookId, @RequestParam("name") String name, @RequestParam("address") String address, @RequestParam("phoneNum") long phoneNum) {
         AddressBook book = repository.findById(bookId);
@@ -64,7 +64,7 @@ public class WebController {
         return "removeBuddy";
     }
 
-    @GetMapping("/get")
+    @GetMapping("/api/get")
     @ResponseBody
     public AddressBook getBookAPI(@RequestParam("bookId") long bookId) {
         return repository.findById(bookId);

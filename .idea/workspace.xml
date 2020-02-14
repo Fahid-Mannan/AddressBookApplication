@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f75b20e-0ddd-42e5-a700-b6d0a5bcb70f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/createPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/OtherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/OtherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/OtherController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Repository/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/WebController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/webController.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/HttpRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/HttpRequestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/AddressBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/AddressBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/AddressBookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/AddressBookRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/BuddyInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/BuddyInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/BuddyInfoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/BuddyInfoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/OtherController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/ServingWebContentApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/ServingWebContentApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Repository/WebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/WebController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/webController.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -138,13 +140,13 @@
         <counts>
           <entry key="dummy" value="12" />
           <entry key="html" value="158" />
-          <entry key="java" value="1049" />
+          <entry key="java" value="1161" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="158" />
-          <entry key="JAVA" value="1049" />
+          <entry key="JAVA" value="1161" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
@@ -195,26 +197,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Repository/AccessingDataJpaApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="-336">
               <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/OtherController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="32" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Repository/HttpRequestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="446">
+              <caret line="49" column="86" selection-start-line="49" selection-start-column="86" selection-end-line="49" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -231,11 +224,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Repository/WebController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1207">
-              <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+            <state relative-caret-position="408">
+              <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2793#2794#0" expanded="true" />
@@ -302,12 +295,12 @@
         <option value="$PROJECT_DIR$/src/test/java/TestingWebApplicationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/AccessingDataJpaApplication.java" />
         <option value="$PROJECT_DIR$/src/test/java/Repository/TestingWebApplicationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Repository/HttpRequestTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/webController.html" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/addBuddy.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/createPage.html" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/OtherController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/WebController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Repository/HttpRequestTest.java" />
       </list>
     </option>
   </component>
@@ -445,7 +438,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581706710625" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581708496711" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -914,7 +907,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServingWebContentApplication">
+  <component name="RunManager" selected="JUnit.HttpRequestTest.testRestApplication">
     <configuration name="HttpRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab02" />
       <extension name="coverage">
@@ -993,8 +986,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ServingWebContentApplication" />
         <item itemvalue="JUnit.HttpRequestTest.testRestApplication" />
+        <item itemvalue="Spring Boot.ServingWebContentApplication" />
         <item itemvalue="JUnit.HttpRequestTest" />
         <item itemvalue="JUnit.HttpRequestTest.greetingShouldReturnDefaultMessage" />
         <item itemvalue="JUnit.TestingWebApplicationTest.shouldReturnDefaultMessage" />
@@ -1022,14 +1015,11 @@
       <workItem from="1580933384617" duration="1689000" />
       <workItem from="1581099003403" duration="9435000" />
       <workItem from="1581532417180" duration="5279000" />
-      <workItem from="1581705557980" duration="1142000" />
+      <workItem from="1581705557980" duration="2912000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HttpRequestTest_testRestApplication - 2020.02.07 at 15h 00m 00s.xml">
-      <configuration name="HttpRequestTest.testRestApplication" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HttpRequestTest_testRestApplication - 2020.02.07 at 15h 33m 29s.xml">
       <configuration name="HttpRequestTest.testRestApplication" configurationId="JUnit" />
     </history-entry>
@@ -1057,15 +1047,18 @@
     <history-entry file="HttpRequestTest_testRestApplication - 2020.02.07 at 15h 56m 46s.xml">
       <configuration name="HttpRequestTest.testRestApplication" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HttpRequestTest_testRestApplication - 2020.02.14 at 14h 07m 14s.xml">
+      <configuration name="HttpRequestTest.testRestApplication" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50148000" />
+    <option name="totallyTimeSpent" value="51918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15991472" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15991472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1075,8 +1068,8 @@
       <window_info id="Persistence" order="7" side_tool="true" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.4989339" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7372068" weight="0.31419286" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989339" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7372068" visible="true" weight="0.31419286" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1100,42 +1093,6 @@
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.30063966" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15991472" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Persistence" order="7" side_tool="true" />
-      <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989339" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7372068" weight="0.31419286" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4989339" weight="0.32936078" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Spring" order="13" />
-      <window_info active="true" anchor="bottom" id="REST Client" order="14" sideWeight="0.4978678" visible="true" weight="0.32936078" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32995737" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.30063966" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1236,23 +1193,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/AccessingDataJpaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/HttpRequestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Repository/AddressBook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -1288,17 +1228,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/createPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1309,14 +1249,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/AccessingDataJpaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Repository/WebController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+        <state relative-caret-position="408">
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2793#2794#0" expanded="true" />
             <element signature="e#2825#2826#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Repository/HttpRequestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="49" column="86" selection-start-line="49" selection-start-column="86" selection-end-line="49" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
