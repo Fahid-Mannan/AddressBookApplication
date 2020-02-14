@@ -5,3 +5,4 @@ Repository\WebController.class
 Repository\BuddyInfoRepository.class
 Repository\ServingWebContentApplication.class
 Repository\OtherController.class
+Repository\Addbuddy.class

@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>My SpringBoot Application</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Create a Buddy</h1>
+<form action="#" th:action="@{/add}" th:object="${addbuddy}" method="post">
+    <p>Id: <input type="text" th:field="*{bookId}" /></p>
+
+    <p><input type="button" value="Create"/></p>
+</form>
+</body>
+</html>
